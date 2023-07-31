@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "build:watch": "tsc && vite build --watch -m development",
+    "build": "vite build",
+    "build:watch": "vite build --watch -m development",
     "d": "pm2 start --attach pnpm -- build:watch",
     "preview": "vite preview",
     "watch": "chokidar src manifest.json manifest.ts --initial -d 2000 -c \"pnpm build\" -i \"node_modules\" -i \"dist\""
