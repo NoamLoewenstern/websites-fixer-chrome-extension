@@ -1,4 +1,4 @@
-# Chrome Browser Fixer Extension
+# Website Fixer Chrome Extension
 
 <p style="text-align: center;">
 <a href="https://github.com/NoamLoewenstern/websites-fixer-chrome-extension"><img src="public/logo512.png" alt="Browser Fixer" width="256" height="220">
@@ -7,7 +7,7 @@
 
 ## Description
 
-Welcome to the Chrome Browser Fixer Extension repository! This tool is designed to help developers add plugins to their Chrome browser to fix specific issues that they might encounter on any website. This extension provides you with a base code where you can add, define and specify the function(s) to run, thus offering a more seamless browsing experience.
+Welcome to the Website Fixer Chrome Extension repository! This tool is designed to help developers add plugins to their Chrome browser to fix specific issues that they might encounter on any website. This extension provides you with a base code where you can add, define and specify the function(s) to run, thus offering a more seamless browsing experience.
 
 ## Motivation
 
