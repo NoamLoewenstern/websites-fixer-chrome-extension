@@ -1,0 +1,24 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/node_modules": true,
+    "**/.vscode": true,
+    // "**/dist": true,
+    // "**/build": true,
+    // "public": true,
+    "LICENSE": true,
+    "tsconfig.tsbuildinfo": true,
+    "*lock.yaml": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["/manifest.json"],
+      "url": "http://json.schemastore.org/chrome-manifest"
+    }
+  ]
+}

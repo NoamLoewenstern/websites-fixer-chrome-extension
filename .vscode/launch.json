@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "rami-levy",
+            "url": "https://www.rami-levy.co.il/he/online/market",
+            "webRoot": "${workspaceFolder}",
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome",
+            "webRoot": "${workspaceFolder}/dist",
+            "port": 9222
+            // chrome.exe --remote-debugging-port=9222 --user-data-dir=chrome-user-data --load-extension=dist
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Try Debug to Chrome",
+            "webRoot": "${workspaceFolder}",
+            "port": 9222
+            // chrome.exe --remote-debugging-port=9222 --user-data-dir=chrome-user-data --load-extension=dist
+            // "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir=./chrome-user-data --load-extension=./dist
+            // "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\Users\NoamL\Documents\Projects\rami-levi-chrome-ext\chrome-user-data" --load-extension="C:\Users\NoamL\Documents\Projects\rami-levi-chrome-ext\dist" https://rami-levy.co.il/
+        }
+    ]
+}
