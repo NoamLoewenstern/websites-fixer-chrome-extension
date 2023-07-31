@@ -1,6 +1,6 @@
 import googleCBs from './google';
 
-const allCBs = [{ google: googleCBs }];
+const allCBs: Record<string, WebsitePlugin>[] = [{ google: googleCBs }];
 
 async function main() {
   for (const cb of allCBs) {
